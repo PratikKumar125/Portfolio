@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Vincent Nguyen Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./public/css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <!-- box icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">Portfo<span>lio</span></a>
+
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a><i class="fa-solid fa-moon" id="toggle_light_dark"></i></a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon">
+
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello!</span>
+                <span class="two">I'm</span>
+            </div>
+
+            <h1>Pratik <span>Kumar</span></h1>
+
+            <h3><span>Full-stack</span> Wannabe.</h3>
+
+            <div class="button">
+                <a href="#contact" class="btn">Say Hi!</a>
+                <a href="public/pdf/PratikCV.pdf" class="btn2" download="Pratik Kumar_CV">
+                    <span class="icon"><i class="bx bx-play"></i></span>
+                    <span class="text">Check Out My CV!</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./public/images/dot.jpeg">
+        </div>
+        
+        <div class="about-text">
+            <h2>Who am <span>I?</span></h2>
+            <h4>A Developer & An Analyst</h4>
+            <p>
+                I'm a proactive and open-minded CS student at GLA University in UP,India.
+
+                Excelling in the field of computers and technologies has been one of the biggest targets I longed
+                for, and I look forward to playing a role in our Tech industry.
+
+                Working with the mindset of “Think it. Do it. Improve it”
+                <!-- , I always force myself to take everything -->
+                <!-- into
+                immediate
+                action and be committed to the idea of striving for success and breaking free. -->
+            </p>
+            <h3>Languages</h3>
+            <p>Python, Javascript, HTML, CSS, Java</p>
+            <h3>Libraries & Frameworks</h3>
+            <p>ReactJS, Express, Redux</p>
+            <h3>Tools</h3>
+            <p>Git, Docker, Kubernetes, Jenkins</p>
+            <h3>Database</h3>
+            <p>MongoDb and MySQL</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section class="skills" id="skills">
+
+        <div class="title">
+            <p>What I Am OKAY In</p>
+            <h2><span>My</span> Skills</h2>
+        </div>
+
+        <div class="skills-content">
+
+            <div class="box">
+                <i class='bx bx-code-alt'></i>
+                <h5>Web Development</h5>
+                <div class="paragraph">
+                    <p>
+                        I Can Design Web Apps
+                    </p>
+                    <a class="read" href="#my-projects">Read More</a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <i class='bx bxl-docker'></i>
+                <!-- <i class='bx bxs-data'></i> -->
+                <!-- <i class="fa-brands fa-docker"></i> -->
+                <h5>Web Containerization</h5>
+                <div class="paragraph">
+                    <p>
+                        Containerization with docker.
+                    </p>
+                    <a class="read" href="#my-projects">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-server'></i>
+                <h5>MERN Stack</h5>
+                <div class="paragraph">
+                    <p>
+                        Creating apps using MERN stack 
+                    </p>
+                    <a class="read" href="#my-projects">Read More</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="skills-content">
+
+            <div class="box">
+                <i class='bx bxl-kubernetes' ></i>
+                <!-- <i class='bx bx-code-alt'></i> -->
+                <h5>Container Orchestration</h5>
+                <div class="paragraph">
+                    <p>
+                        Orchestrating Conatiners with K8S 
+                    </p>
+                    <a class="read" href="#my-projects">Read More</a>
+
+                </div>
+            </div>
+
+
+            <div class="box">
+                <i class='bx bxs-server'></i>
+                <h5>Back-end </h5>
+                <div class="paragraph">
+                    <p>
+                        Can Create APIs And Basic Back-End Things
+                    </p>
+                    <a class="read" href="#my-projects">Read More</a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="title">
+            <p>What I am Doing</p>
+            <h2><span>Latest</span> Projects</h2>
+        </div>
+
+        <div class="portfolio-content">
+
+            <div class="row">
+                <img src="/public/images/wedding.jpg">
+                <div class="layer">
+                    <h5>Wedding match finding and bloging</h5>
+                    <a href="https://github.com/PratikKumar125/Matrimonial-MERN-Site" target="_blank"><i
+                            class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="/public/images/gfg.png">
+                <div class="layer">
+                    <h5>GFG articles scraping and downloading using python</h5>
+                    <a href="https://github.com/PratikKumar125/Python-GFG-article-downloader" target="_blank"><i
+                            class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="/public/images/todo.jpg">
+                <div class="layer">
+                    <h5>REACT+REDUX TODO app</h5>
+                    <a href="https://github.com/PratikKumar125/React-Redux-TODO-app" target="_blank"><i
+                            class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="/public/images/password.jpg">
+                <div class="layer">
+                    <h5>Password management using MongoDB and Python</h5>
+                    <a href="https://github.com/PratikKumar125/Python-Mongodb-password-manager" target="_blank"><i
+                            class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="/public/images/cart.jpg">
+                <div class="layer">
+                    <h5>E-commerce cart app in React and Redux</h5>
+                    <a href="https://github.com/PratikKumar125/React-Redux-Cart" target="_blank"><i
+                            class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <!-- Add more div to add more projects -->
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact" id="contact">
+        <h2>Contact <span>Me</span></h2>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/pratikkumar22/" target="_blank" class="fa-brands fa-linkedin-in"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="https://github.com/pratikkumar125" target="_blank" class="fa-brands fa-github-alt"><i class='bx bxl-github'></i></a>
+            <a href="mailto:prateektiwari3778@gmail.com" class="fa fa-envelope"><i class='bx bxl-gmail' ></i></a>
+        </div>
+    </section>
+    <!-- Script -->
+    <script type="text/javascript" src="./public/js/script.js"></script>
+</body>
+</html>
