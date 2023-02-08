@@ -126,7 +126,7 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(/public/images/mainbg.jpg);
+    background-image: url(./public/images/mainbg.jpg);
     background-color: var(--bg-color);
     background-size: cover;
     background-position: center;
